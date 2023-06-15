@@ -4,7 +4,7 @@
 #include <time.h>
 #include "main.h"
 /**
-* main - imprimir
+* print_alphabet - imprime alfabeto
 *
 * Return: Always 0 (return)
 **/
@@ -14,5 +14,4 @@ int i;
 for (i = 97; i < 122; i++)
 putchar('0' + i);
 putchar('\n');
-return (0);
 }
