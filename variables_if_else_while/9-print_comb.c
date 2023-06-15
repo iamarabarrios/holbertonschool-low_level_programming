@@ -10,8 +10,9 @@
 int main(void)
 {
 int i;
-for (i = 0; i < 26; i++)
-putchar('a' + i);
+for (i = 48; i < 57; i++)
+putchar(i);
+putchar(", ");
 putchar('\n');
 return (0);
 }
