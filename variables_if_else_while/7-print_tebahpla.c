@@ -1,4 +1,5 @@
-#include <stdio.h>
+
+0;10;1c#include <stdio.h>
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
@@ -10,7 +11,7 @@
 int main(void)
 {
 int i;
-for (i = 26; i > 0; i--)
+for (i = 25; i >= 0; i--)
 putchar('a' + i);
 putchar('\n');
 return (0);
