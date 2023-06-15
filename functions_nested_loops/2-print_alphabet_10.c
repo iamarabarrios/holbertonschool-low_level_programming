@@ -4,7 +4,7 @@
 #include <time.h>
 #include "main.h"
 /**
-* print_alphabet - imprime alfabeto
+* print_alphabet_x10 - imprime alfabeto10
 *
 * Return: Always 0 (return)
 **/
