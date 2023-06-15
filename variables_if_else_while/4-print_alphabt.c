@@ -10,9 +10,11 @@
 int main(void)
 {
 int i;
-for (i = 0; i < 26; i++)
-putchar('a' + i grep -v oo);
+for (i = 97; i < 123; i++)
+{
+if (i != 113 && i != 101)
+putchar(i);
+}
 putchar('\n');
 return (0);
 }
-
