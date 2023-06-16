@@ -4,15 +4,13 @@
 #include <time.h>
 #include "main.h"
 /**
-* _abs - calcula el valor absoluto
-* @n:absolut
+* print_last_digit - ultimo digito
+*@u: int
 * Return: Always 0 (return)
 **/
-int _abs(int n)
+int print_last_digit(int u)
 {
-if (n < 0)
-{
-return (n * (-1));
-}
-return (n);
+int result = u % 10;
+_putchar(result + 48)
+return(result);
 }
