@@ -35,7 +35,7 @@ _putchar(32);
 }
 if (result > 9)
 _putchar(firstdigit + 48);
-_putchar(seconddigit + 48); 
+_putchar(seconddigit + 48);
 }
 _putchar('\n');
 }
