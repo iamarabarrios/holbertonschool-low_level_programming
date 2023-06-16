@@ -15,5 +15,5 @@ if (u < 0)
 u = u * -1;
 result = u % 10;
 _putchar(result + 48);
-return(result);
+return (result);
 }
