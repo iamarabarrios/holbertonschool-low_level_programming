@@ -1,0 +1,6 @@
+Escriba una función que compruebe si hay caracteres en minúscula.
+
+Prototipo: int _islower(int c);
+Devuelve 1 si c es minúscula
+Devuelve 0 en caso contrario
+Para su información: La biblioteca estándar proporciona una función similar: islower. Ejecute man islower para obtener más información.
