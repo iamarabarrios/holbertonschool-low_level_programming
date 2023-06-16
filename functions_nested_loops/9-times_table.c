@@ -12,7 +12,7 @@ void times_table(void)
 {
 int i;
 int j;
-int firtsdigit;
+int firtdigit;
 int seconddigit;
 int result;
 for (i = 0; i <10; i++)
