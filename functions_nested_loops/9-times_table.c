@@ -10,7 +10,7 @@
 **/
 void times_table(void)
 {
-  int number = 9;
+int number = 9;
 _putchar(number * '0');
 _putchar(number * '1');
 _putchar(number * '2');
