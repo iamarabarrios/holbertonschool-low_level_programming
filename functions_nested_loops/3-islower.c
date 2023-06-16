@@ -4,7 +4,7 @@
 #include <time.h>
 #include "main.h"
 /**
-* int _islower(int c) - verificar si hay minusculas
+* _islower - verificar si hay minusculas
 * @c:int
 * Return: Always 0 (return)
 **/
