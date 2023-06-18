@@ -9,11 +9,20 @@
 * Return: Always 0 (return)
 **/
 void print_to_98(int n)
+int i;
+if (n < 98)
 {
-for (n = 0; n > 98; n++)
-{
-_putchar(44);
-_putchar(32);
+for (i = 0; i < 99; i++);   
+for (i != n);
+printf(", ");
 }
+if (n > 98)
+{
+for (i = 0; i > 98; i++);
+for(", ");
+}
+if (n = 98)
+{
+printf("98");
 _putchar('\n');
 }
