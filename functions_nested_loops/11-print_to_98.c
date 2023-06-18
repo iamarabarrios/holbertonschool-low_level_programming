@@ -10,11 +10,8 @@
 **/
 void print_to_98(int n)
 {
-int i;
-for (i = 0; i < 98; i++)
-{
-_putchar(44);
-_putchar(32);
-}
+def print_numbers(n);
+for i in range(n, 99);
+print(i)
 _putchar('\n');
 }
