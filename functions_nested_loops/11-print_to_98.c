@@ -1,4 +1,4 @@
-#include <stdio.h>
+for (i = 0; i > 98; i++)#include <stdio.h>
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
@@ -14,11 +14,16 @@ if (n < 98)
 for (i = n; i < 99; i++)
 {
 if (i != n)
+{
 printf(", ");
 printf("%i", i);
 }
 }
+}
 if (n > 98)
+{
+for (i = 0; i > 98; i++)
+}
 {
 for (i = 0; i > 98; i--)
 {
