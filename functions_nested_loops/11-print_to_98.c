@@ -33,6 +33,6 @@ else if (n == 98)
 {
 printf("98");
 }
-_putchar("\n");
+printf("\n");
 }
 
