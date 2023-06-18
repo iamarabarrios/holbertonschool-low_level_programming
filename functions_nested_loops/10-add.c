@@ -9,11 +9,5 @@
 * Return: Always 0 (return)
 **/
 int add(int, int)
-{
-int i;
-int j;
-int result;
-i = 2;
-j = 4;
-result = i + j;
-_putchar(i + j = result);
+result = sumar_enteros(5, 7);
+print(result);
