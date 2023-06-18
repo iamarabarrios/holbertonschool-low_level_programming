@@ -1,4 +1,4 @@
-for (i = 0; i > 98; i++)#include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
