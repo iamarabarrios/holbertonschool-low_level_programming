@@ -14,7 +14,7 @@ int result;
 result = u % 10;
 if (u < 0)
 {
-result *= -1;
+result = result * -1;
 }
 _putchar(result + 48);
 return (result);
