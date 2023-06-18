@@ -5,7 +5,8 @@
 #include "main.h"
 /**
 * add - imprime dos enteros y devueve el resultado
-*
+*@number1:one
+*@number2:two
 * Return: Always 0 (return)
 **/
 int add(int number1, int number2)
