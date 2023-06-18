@@ -30,7 +30,7 @@ for (i = 0; i > 98; i--)
 for (", ")
 }
 }
-if (n = 98)
+if (n == 98)
 {
 printf("98");
 _putchar('\n');
