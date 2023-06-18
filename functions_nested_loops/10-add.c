@@ -9,5 +9,11 @@
 * Return: Always 0 (return)
 **/
 int add(int, int)
-result = sumar_enteros(5, 7);
-print(result);
+int number1;
+int number2;
+int suma;
+scanf("%d %d", &number1, &number2);
+suma = 30 + 10;
+printf("Suma of %d and %d is: %d", number1, number2, suma);
+return (0);
+}
