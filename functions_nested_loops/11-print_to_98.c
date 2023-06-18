@@ -9,6 +9,7 @@
 * Return: Always 0 (return)
 **/
 void print_to_98(int n)
+int i;
 {
 for (i = 0; i > 98; i++)
 {
