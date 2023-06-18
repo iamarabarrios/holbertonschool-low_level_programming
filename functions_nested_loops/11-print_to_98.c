@@ -11,7 +11,6 @@
 void print_to_98(int n)
 {
 int i;
-int j;
 for (i = 0; i < 98; i++)
 {
 _putchar(44);
