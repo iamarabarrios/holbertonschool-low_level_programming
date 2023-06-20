@@ -1,9 +1,12 @@
 CC = gcc
 SRC = main.c school.c
-OBJ = $(wildcard *.o)
+OBJ = $(SRC:.c=.o)    #Se cambió la variable OBJ para que genere los nombres de archivo objeto correctamente
 NAME = school
-NAME = ${NAME}
+
 all: $(NAME)
 
-$(name):
-	$(CC) $(SRC) $(OBJ) -o $(NAME)
+$(NAME): $(OBJ)    #Dependencia para generar los archivos objeto antes de enlazarlos
+        $(CC) $(OBJ) -o $(NAME)
+
+%.o: %.c    #Hace con que compile archivos fuente individuales en archivos objeto
+        $(CC) -c $< -o $@
