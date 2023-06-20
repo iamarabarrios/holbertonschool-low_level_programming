@@ -1,7 +1,3 @@
- #include <stdio.h>
-#include <stdlib.h>
-#include <stdio.h>
-#include <time.h>
 #include "main.h"
 /**
 * more_numbers - imprime 10 veces del 0 al 14
@@ -17,8 +13,8 @@ for (i = 0; i < 10; i++)
 {
 	for (j = 0; j <= 14; j++)
 	{
-	putchar(j + '0');
+	_putchar(j + '0');
 	}
+	_putchar('\n');
 }
-putchar('\n');
 }
