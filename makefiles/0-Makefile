@@ -1,12 +1,2 @@
-CC = gcc
-SRC = main.c school.c
-OBJ = $(SRC:.c=.o)    #Se cambió la variable OBJ para que genere los nombres de archivo objeto correctamente
-NAME = school
-
-all: $(NAME)
-
-$(NAME): $(OBJ)    #Dependencia para generar los archivos objeto antes de enlazarlos
-        $(CC) $(OBJ) -o $(NAME)
-
-%.o: %.c    #Hace con que compile archivos fuente individuales en archivos objeto
-        $(CC) -c $< -o $@
+all:
+	gcc main.c school.c -o school
