@@ -1,10 +1,11 @@
 #include "main.h"
 /**
 * mul - multiplica dos enteros
-* @c:int
+* @a:int
+* @b:int
 * Return: Always 0 (return)
 **/
 int mul(int a, int b)
 {
-return a * b;
-} 
+return (a * b);
+}
