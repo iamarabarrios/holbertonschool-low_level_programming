@@ -1,0 +1,10 @@
+#!/bin/bash
+
+$(CFILE)="main.c"
+
+BASENAME=$(basename "$CFILE" .c)
+
+gcc -S -masm=intel "$CFILE" -o "$BASENAME.s"
+
+echo $BASENAME.s
+
