@@ -12,8 +12,5 @@ void puts2(char *str)
 {
 int i;
 	for (i = 0; str[i] != '\0'; i++)
-	{
-		if (i == 'H')
-			_putchar(str[i]);
-	}
+	return (str[i]);
 }
