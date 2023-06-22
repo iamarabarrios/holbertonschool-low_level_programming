@@ -1,6 +1,7 @@
 #include <unistd.h>
 #include <stdio.h>
 #include "main.h"
+#include <string.h>
 /**
  * print_rev - imprime al reves
  * @s: char
@@ -11,10 +12,11 @@
 void print_rev(char *s)
 {
 int i;
-int count = 0;
-for (i = 0; s[i] != '\0'; i++)
+int size = strlen(s);
+
+for (i = size - 1; i >= 0; i--)
 {
-	count++;
-	_putchar(count);
+_putchar(s[i]);
 }
+_putchar('\n');
 }
