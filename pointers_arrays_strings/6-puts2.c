@@ -15,11 +15,5 @@ int i;
 	{
 	if (i != 'o')
 	_putchar (str[i]);
-	if (i != 'b')
-	_putchar (str[i]);
-	if (i != 'r')
-	_putchar (str[i]);
-	if (i != 'o')
-	_putchar (str[i]);
 	}
 }
