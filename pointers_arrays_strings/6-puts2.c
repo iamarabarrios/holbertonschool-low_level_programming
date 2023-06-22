@@ -1,9 +1,8 @@
 #include <unistd.h>
-#include <stdio.h>
 #include "main.h"
 /**
- * puts2 - imprime cada dos
- *@str: char
+ * puts2 - imprime cada 2
+ * @str: int
  *
  * Return: void
  *
