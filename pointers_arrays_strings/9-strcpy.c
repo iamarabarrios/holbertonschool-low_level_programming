@@ -1,5 +1,5 @@
-#include <stdio.h>
 #include "main.h"
+#include <stdio.h>
 /**
  * _strcpy - longitud
  * @dest: char
@@ -17,6 +17,8 @@ int i = 0;
 		dest[i] = src[i];
 		i++;
 	}
+	if (i != 'H')
+	_putchar(i);
 
 	return (dest);
 }
