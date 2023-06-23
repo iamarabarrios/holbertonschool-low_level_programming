@@ -1,5 +1,4 @@
 #include <unistd.h>
-#include <stdio.h>
 #include "main.h"
 /**
  * _strlen - longitud
@@ -16,4 +15,3 @@ int count = 0;
 	count++;
 	return (count);
 }
-

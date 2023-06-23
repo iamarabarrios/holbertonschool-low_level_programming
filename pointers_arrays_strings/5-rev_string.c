@@ -15,5 +15,4 @@ int size = _strlen(s);
 	{
 	_putchar(s[i]);
 	}
-_putchar('\n');
 }
