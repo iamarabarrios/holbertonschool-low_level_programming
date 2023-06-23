@@ -1,18 +1,5 @@
 #include "main.h"
 /**
- * _strlen - counts the length of a string
- * @s: the string to count
- * Return: length
- */
-int _strlen(char *s)
-{
-	int count = 0;
-
-	for (; s[count] != '\0';)
-		count++;
-	return (count);
-}
-/**
  * rev_string - al reves
  * @s: int
  *
@@ -21,17 +8,19 @@ int _strlen(char *s)
  */
 void rev_string(char *s)
 {
-	char ch, *p, *q;
+	char m;
+	char *j;
+	char *i;
 
-for (q = s; *q != '\0'; ++q)
+for (i = s; *i != '\0'; ++i)
 ;
-if (q > s)
---q;
+if (i > s)
+--i;
 
-	for (p = s; p < q; ++p, --q)
+	for (j = s; j < i; ++j, --i)
 	{
-	ch = *p;
-	*p = *q;
-	*q = ch;
+	m = *j;
+	*j = *i;
+	*i = m;
 	}
 }
