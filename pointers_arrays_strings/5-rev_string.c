@@ -20,7 +20,7 @@ int _strlen(char *s)
  *
  */
 void rev_string(char *s)
-{
+	{
 	int i;
 	int size = _strlen(s);
 
