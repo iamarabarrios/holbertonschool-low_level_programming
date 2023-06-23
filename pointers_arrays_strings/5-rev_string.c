@@ -1,8 +1,6 @@
-#include <unistd.h>
-#include <stdio.h>
 #include "main.h"
 /**
- * rev_string - longitud
+ * rev_string - al reves
  * @s: int
  *
  * Return: void
@@ -11,5 +9,11 @@
 void rev_string(char *s)
 {
 int i;
-for (i = 0; s[i] >= '\0'; i++)
+int size = _strlen(s);
+
+	for (i = size - 1; i >=	0; i--)
+	{
+	_putchar(s[i]);
+	}
+_putchar('\n');
 }
