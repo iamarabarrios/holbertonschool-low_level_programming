@@ -17,8 +17,6 @@ int i = 0;
 		dest[i] = src[i];
 		i++;
 	}
-	if (i != 'H')
-	_putchar(i);
 
 	return (dest);
 }
