@@ -1,22 +1,22 @@
 #include "main.h"
 /**
- * string_touper - cambia de mayus a minu
- * @s1: punt char
- * @s2: punt char
- * Return: dest
+ * string_toupper - cambia de mayus a minu
+ * @a: punt char
+ * Return: void
  *
  */
-char *string_toupper(char *){
-	while (*s1 && *s2)
+char *string_toupper(char *a)
+{
+	int i;
+
+	while (a[i])
 	{
-		if (*s1 != *s2)
-			return (*s1 - *s2);
+	if (a[i] >= 97 && a[i] <= 122)
+	a[i] -= 32;
 
-	s1++;
-	s2++;
-
+	i++;
 	}
 
-	return (*s1 - *s2);
+	return (a);
 
 }
