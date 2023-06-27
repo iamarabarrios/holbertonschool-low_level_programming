@@ -15,5 +15,4 @@ char *cap_string(char *a)
 		a[i] = (int)a[i] - 32;
 	}
 	return (a);
-
 }
