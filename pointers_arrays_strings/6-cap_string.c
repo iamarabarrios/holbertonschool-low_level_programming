@@ -9,11 +9,9 @@ char *cap_string(char *a)
 {
 	int i;
 
-	while (!(a[i] >= 'a' && a[i <= 'z']))
+	while (a[i] != '\0')
 	{
 		i++;
-	if (a[0] >= 97 && a[0] <= 122)
-	a[0] -= 32;
 	if (a[i - 1] == ' ' ||
 		a[i - 1] == '\t' ||
 		a[i - 1] == '\n' ||
