@@ -1,34 +1,33 @@
 #include "main.h"
 /**
- * cap_string - cambia a mayus
- * @a: punt char
- * Return: s
- *
+ * cap_string - principio mayuscula
+ * @s: mayuscula principio
+ * Return: pointer to s
  */
-char *cap_string(char *a)
+char *cap_string(char *s)
 {
 	int x = 0;
 
-	while (a[x])
+	while (s[x])
 	{
-		while (!(a[x] >= 'a' && a[x] <= 'z'))
+		while (!(s[x] >= 'a' && s[x] <= 'z'))
 			x++;
-	if (a[x - 1] == ' ' ||
-			a[x - 1] == '\t' ||
-			a[x - 1] == '\n' ||
-			a[x - 1] == ',' ||
-			a[x - 1] == ';' ||
-			a[x - 1] == '.' ||
-			a[x - 1] == '!' ||
-			a[x - 1] == '?' ||
-			a[x - 1] == '"' ||
-			a[x - 1] == '(' ||
-			a[x - 1] == ')' ||
-			a[x - 1] == '{' ||
-			a[x - 1] == '}' ||
+	if (s[x - 1] == ' ' ||
+			s[x - 1] == '\t' ||
+			s[x - 1] == '\n' ||
+			s[x - 1] == ',' ||
+			s[x - 1] == ';' ||
+			s[x - 1] == '.' ||
+			s[x - 1] == '!' ||
+			s[x - 1] == '?' ||
+			s[x - 1] == '"' ||
+			s[x - 1] == '(' ||
+			s[x - 1] == ')' ||
+			s[x - 1] == '{' ||
+			s[x - 1] == '}' ||
 			x == 0)
-		a[x] -= 32;
+		s[x] -= 32;
 		x++;
 	}
-	return (a);
+	return (s);
 }
