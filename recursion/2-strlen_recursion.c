@@ -1,6 +1,14 @@
 #include "main.h"
 /**
- * print_chessboard - tablero de ajedrez
- * @a: punt char
- * Return: void
+ * _strlen_recursion - retorna la longitud de la cadena
+ * @s: punt char
+ * Return: s
  */
+int _strlen_recursion(char *s)
+{
+	if (*s != '\0')
+	{
+	return (1 + _strlen_recursion(s + 1));
+	}
+	return (0);
+}
