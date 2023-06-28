@@ -1,6 +1,16 @@
 #include "main.h"
 /**
- * print_chessboard - tablero de ajedrez
- * @a: punt char
+ * _print_rev_recursion - imprime al reves
+ * @s: punt char
  * Return: void
  */
+void _print_rev_recursion(char *s)
+{
+	if (*s != '\0')
+	{
+	_print_rev_recursion(s + 1);
+	_putchar(*s);
+	}
+	else
+_putchar('\n');
+}
