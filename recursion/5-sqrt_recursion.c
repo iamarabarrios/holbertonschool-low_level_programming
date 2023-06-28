@@ -1,6 +1,17 @@
 #include "main.h"
 /**
- * print_chessboard - tablero de ajedrez
- * @a: punt char
- * Return: void
- */
+ * _sqrt_recursion - raiz cuadrada
+ * @n: int
+ * Return: n
+*/
+int _sqrt_recursion(int n)
+{
+	if (n < 0)
+	{
+		return (n * -1);
+		return (n);
+	}
+	else
+	return (-1);
+
+}
