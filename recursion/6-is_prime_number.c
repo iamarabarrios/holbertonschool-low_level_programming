@@ -1,6 +1,12 @@
 #include "main.h"
 /**
- * print_chessboard - tablero de ajedrez
- * @a: punt char
- * Return: void
+ * is_prime_number - numero primo
+ * @n: number for input
+ * Return: n
  */
+int is_prime_number(int n)
+{
+	if (n > 0)
+	return (is_prime_number(n / 2));
+
+}
