@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _sqrt - raiz cuadrada
+ * _sqrt - raiz cuadrada sqrt
  * @n: int
  * @m: int
  * Return: 0
