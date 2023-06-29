@@ -8,11 +8,11 @@
 
 int _sqrt(int n, int m)
 {
-	if ((n * 10000) - (m * m) <= 0)
-	{
-	return (m / 100);
-	}
-	else
+	int sqrt = m * m;
+		if (sqrt == n)
+			return (m);
+		if (sqrt > m)
+			return (-1);
 		return (_sqrt(n, m + 1));
 }
 
@@ -24,7 +24,5 @@ int _sqrt(int n, int m)
 
 int _sqrt_recursion(int n)
 {
-	if (n < 0)
-		return (-1);
-	return (_sqrt(n, n / 2));
+	return (_sqrt(n, 1));
 }
