@@ -6,13 +6,13 @@
  * @argv: char
  * Return: 0
 */
-int main(int argc, char *argv[])
+int main(int argc, char __attribute__((__unused__)) *argv[])
 {
 	int i;
 
 	for (i = 0; i < argc; i++)
 	{
-	printf("%s ", argv[i]);
+	printf("%d", argc);
 	printf("\n");
 	}
 	return (0);
