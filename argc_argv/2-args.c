@@ -8,14 +8,13 @@
 */
 int main(int argc, char __attribute__((__unused__)) *argv[])
 {
-        int i;
+	int i;
 
-        for (i = 0; i < argc; i++)
-        {
-        printf("%s\n", argv[i]);
-        }
+	for (i = 0; i < argc; i++)
+	{
+	printf("%s\n", argv[i]);
+	}
 
-        printf("\n");
-        return (0);
+	return (0);
 
 }
