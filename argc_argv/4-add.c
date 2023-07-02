@@ -13,26 +13,27 @@ int main(int argc, char *argv[])
 	int a;
 	int b;
 	int count = 0;
+	int resultado = 0;
 
 	if (argc == 1)
 	{
 		printf("0\n");
 		return (0);
 	}
-	for (b = 1; b <= argc; b++)
+	for (b = 1; b < argc; b++)
 	{
-		for (a = 0; a < argc; a++)
+		for (a = 0; argv[b][a] != '\0'; a++)
 		{
-			if (isdigit(argv[b][a]) == 0)
+			if (!(isdigit(argv[b][a])))
 			{
 				printf("Error\n");
 				return (1);
 			}
 
-			else
-				count += atoi(argv[b]);
+				count = atoi(argv[b]);
+				resultado += count;
 		}
 	}
-	printf("%d\n", count);
+	printf("%d\n", resultado);
 	return (0);
 }
