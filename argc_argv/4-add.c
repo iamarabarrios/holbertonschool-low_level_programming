@@ -30,9 +30,9 @@ int main(int argc, char *argv[])
 				return (1);
 			}
 
+		}
 				count = atoi(argv[b]);
 				resultado += count;
-		}
 	}
 	printf("%d\n", resultado);
 	return (0);
