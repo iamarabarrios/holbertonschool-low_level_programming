@@ -2,10 +2,10 @@
 #include <stdlib.h>
 
 /**
- *create_array - the function
- *@size: the size of the string
- *@c: the char
- *Return: the pointer
+ *create_array - retorna un puntero
+ *@size: int
+ *@c: char
+ *Return: puntero
  */
 
 char *create_array(unsigned int size, char c)
@@ -19,7 +19,7 @@ char *create_array(unsigned int size, char c)
 	{
 		return (NULL);
 	}
-	else if (size == 0)
+	if (size == 0)
 	{
 		return (NULL);
 	}
