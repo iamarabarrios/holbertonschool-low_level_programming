@@ -15,3 +15,9 @@ putchar('a' + i);
 putchar('\n');
 return (0);
 }
+
+
+falta arreglar un par de cosas
+que imprima el alfabeto en minúsculas y luego en mayúsculas,
+seguido de una nueva líneaque imprima el alfabeto en minúsculas
+y luego en mayúsculas, seguido de una nueva línea
