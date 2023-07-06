@@ -10,23 +10,20 @@
 
 char *_strdup(char *str)
 {
-	int size = strlen(str) + 1;
-	char *p = (char *)malloc(sizeof(char) * size);
+char *p;
 	int i;
 
 	if (str == NULL)
-	{
 		return (NULL);
-	}
 
-	if (p == NULL)/**p es el nuevo puntero*/
-	{
+	p = malloc(sizeof(char) * (strlen(str) + 1));
+
+	if (p == NULL)
 		return (NULL);
-	}
 
-	for (i = 0; i < size; i++)
-	{
-		str[i] = p[i];
-	}
-	return (p);
+for (i = 0; str[i] != '\0'; i++)
+{
+	p[i] = str[i];
+}
+return (p);
 }
