@@ -1,5 +1,5 @@
-#ifndef PRINT_NAME_H
-#define PRINT_NAME_H
+#ifndef FUNCTION_POINTERS_H
+#define FUNCTION_POINTERS_H
 #include "function_pointers.h"
 #include <stdio.h>
 #include <stdlib.h>
