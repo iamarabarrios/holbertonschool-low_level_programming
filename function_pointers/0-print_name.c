@@ -11,7 +11,10 @@
 
 void print_name(char *name, void (*f)(char *))
 {
-	printf("name");
+	if (name != NULL && f != NULL)
+	{
+	f(name);
+	}
 }
 
 #endif
