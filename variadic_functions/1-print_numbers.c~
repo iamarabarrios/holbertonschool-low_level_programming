@@ -1,0 +1,39 @@
+#include <stdio.h>
+#include <stdarg.h>
+
+#define PRINT_FORMAT(type, format_specifier) \
+    case type: \
+        printf("%s%s", separator, format_specifier); \
+        separator = ", "; \
+        break;
+
+void print_all(const char * const format, ...)
+{
+    va_list ap;
+    const char *separator = "";
+    int i = 0;
+
+    va_start(ap, format);
+    while (format && format[i])
+    {
+        switch (format[i])
+        {
+            PRINT_FORMAT('c', "%c")
+            PRINT_FORMAT('i', "%d")
+            PRINT_FORMAT('f', "%f")
+            PRINT_FORMAT('s', "%s")
+            default:
+                break;
+        }
+        ++i;
+    }
+    va_end(ap);
+
+    printf("\n");
+}
+
+int main()
+{
+    print_all("csi", 'A', 123, 3.14);
+    return 0;
+}
