@@ -7,7 +7,7 @@
 
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int decimal;
+	unsigned int decimal = 0;
 
 	while (*b != '\0')
 	{
