@@ -1,3 +1,4 @@
+
 #include "main.h"
 
 /**
@@ -18,8 +19,15 @@ void print_binary(unsigned long int n)
 
 	while (size >= 0)
 	{
-	flag = ((n >> size) & 1) ? 1 : (flag ? _putchar('0') : 0);
-		_putchar(((n >> size) & 1) ? '1' : 0);
+		if ((n >> size) & 1)
+		{
+			_putchar('1');
+			flag = 1;
+		}
+		else if (flag)
+		{
+			_putchar('0');
+		}
 		size--;
 	}
 } /**se usa signed porque sino el commpilador manda error, porque la*/
