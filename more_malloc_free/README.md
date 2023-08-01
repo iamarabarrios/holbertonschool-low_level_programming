@@ -1,25 +1,25 @@
-Concepts:
+**Concepts:**
 For this project, we expect you to look at this concept:
 Automatic and dynamic allocation, malloc and free
 
-Resources:
+**Resources:**
 0x0a - malloc & free - quick overview.pdf
 Dynamic memory allocation in C - malloc calloc realloc free (stop at 6:50)
 
-man or help:
+**man or help:**
 malloc
 free
 
-Learning Objectives:
+**Learning Objectives:**
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-General:
+**General:**
 What is the difference between automatic and dynamic allocation
 What is malloc and free and how to use them
 Why and when use malloc
 How to use valgrind to check for memory leak
 
-Requirements:
+**Requirements:**
 Allowed editors: vi, vim, emacs
 All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
 All your files should end with a new line
@@ -34,5 +34,5 @@ In the following examples, the main.c files are shown as examples. You can use t
 The prototypes of all your functions and the prototype of the function _putchar should be included in your header file called main.h
 Don’t forget to push your header file
 
-More Info:
+**More Info:**
 You do not have to learn about calloc and realloc.
