@@ -1,11 +1,11 @@
-Resources:
+**Resources:**
 Nested while loops
 C - Functions
 Learning to Program in C (Part 06) (stop at 14:00)
 What is the purpose of a function prototype?
 C - Header Files (stop before the “Once-Only Headers” paragraph)
 
-Learning Objectives:
+**Learning Objectives:**
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 What are nested loops and how to use them
 What is a function and how do you use functions
@@ -15,7 +15,7 @@ Scope of variables
 What are the gcc flags -Wall -Werror -pedantic -Wextra -std=gnu89
 What are header files and how to to use them with #include
 
-Requirements:
+**Requirements:**
 Allowed editors: vi, vim, emacs
 All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
 All your files should end with a new line
@@ -30,5 +30,5 @@ In the following examples, the main.c files are shown as examples. You can use t
 The prototypes of all your functions and the prototype of the function _putchar should be included in your header file called main.h
 Don’t forget to push your header file
 
-More Info:
+**More Info:**
 You do not have to understand the call by reference (address), stack, static variables, recursions or arrays, yet.
