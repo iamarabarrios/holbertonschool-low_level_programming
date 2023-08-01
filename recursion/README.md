@@ -1,20 +1,20 @@
-Resources:
+**Resources:**
 Recursion, introduction
 What on Earth is Recursion?
 C - Recursion
 C Programming Tutorial 85, Recursion pt.1
 C Programming Tutorial 86, Recursion pt.2
 
-Learning Objectives:
+**Learning Objectives:**
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-General:
+**General:**
 What is recursion
 How to implement recursion
 In what situations you should implement recursion
 In what situations you shouldn’t implement recursion
 
-Requirements:
+**Requirements:**
 Allowed editors: vi, vim, emacs
 All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
 All your files should end with a new line
