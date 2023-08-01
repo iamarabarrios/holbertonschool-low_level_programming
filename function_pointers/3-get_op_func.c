@@ -22,3 +22,4 @@ while (ops[i].op)
 	}
 return (NULL);
 }
+
