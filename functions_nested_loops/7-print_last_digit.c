@@ -19,3 +19,4 @@ result = result * -1;
 _putchar(result + 48);
 return (result);
 }
+
