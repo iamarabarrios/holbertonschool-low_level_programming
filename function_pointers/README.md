@@ -1,19 +1,19 @@
-Resources:
+**Resources:**
 Function Pointer in C
 Pointers to functions
 Function Pointers in C / C++
 why pointers to functions?
 Everything you need to know about pointers in C
 
-Learning Objectives:
+**Learning Objectives:**
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-General:
+**General:**
 What are function pointers and how to use them
 What does a function pointer exactly hold
 Where does a function pointer point to in the virtual memory
 
-Requirements:
+**Requirements:**
 Allowed editors: vi, vim, emacs
 All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
 All your files should end with a new line
