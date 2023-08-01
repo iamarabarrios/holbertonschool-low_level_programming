@@ -1,16 +1,15 @@
-For this project, we expect you to look at these concepts:
+**For this project, we expect you to look at these concepts:**
 Pointers and arrays
 Data Structures
 
-Resources
-Read or watch:
+**Resources:**
 
 C - Arrays
 C - Pointers
 C - Strings
 Memory Layout
 
-Learning Objectives:
+**Learning Objectives:**
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 What are pointers and how to use them
 What are arrays and how to use them
@@ -18,7 +17,7 @@ What are the differences between pointers and arrays
 How to use strings and how to manipulate them
 Scope of variables
 
-Requirements:
+**Requirements:**
 Allowed editors: vi, vim, emacs
 All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
 All your files should end with a new line
@@ -33,5 +32,5 @@ In the following examples, the main.c files are shown as examples. You can use t
 The prototypes of all your functions and the prototype of the function _putchar should be included in your header file called main.h
 Don’t forget to push your header file
 
-More Info:
+**More Info:**
 You do not need to learn about pointers to functions, pointers to pointers, multidimensional arrays, arrays of structures, malloc and free - yet.
