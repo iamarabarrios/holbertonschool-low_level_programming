@@ -1,4 +1,4 @@
-Resources:
+**Resources:**
 Everything you need to know to start with C.pdf (You do not have to learn everything in there yet, but make sure you read it entirely first and make sure you understand the slides: “comments”, “Data types | Integer types”, “Declaration”, “Characters”, “Arithmetic operators”, “Variables assignments”, “Comparisons”, “Logical operators”, “if, if…else”, “while loops”.)
 Keywords and identifiers
 integers
@@ -10,13 +10,13 @@ Logical operators
 while loop in C
 While loop
 
-man or help:
+**man or help:**
 ascii (You do not need to learn about scanf, getc, getchar, EOF, EXIT_SUCCESS, time, rand, srand, RAND_MAX, for loops, do...while loops, functions.)
 
-Learning Objectives:
+**Learning Objectives:**
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-General:
+**General:**
 What are the arithmetic operators and how to use them
 What are the logical operators (sometimes called boolean operators) and how to use them
 What the the relational operators and how to use them
@@ -33,7 +33,7 @@ How to print variables using printf
 What is the ASCII character set
 What are the purpose of the gcc flags -m32 and -m64
 
-Requirements:
+**Requirements:**
 Allowed editors: vi, vim, emacs
 All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
 All your files should end with a new line
