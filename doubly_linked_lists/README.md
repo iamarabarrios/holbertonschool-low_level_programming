@@ -1,6 +1,6 @@
 **Resources:**
 
-What is a Doubly Linked List
+What is a Doubly Linked List.
 
 **Learning Objectives**
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google
