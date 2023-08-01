@@ -1,19 +1,19 @@
-Resources:
+**Resources:**
 stdarg.h
 Variadic Functions
 Const Keyword
 
-man or help:  stdarg
+**man or help:**  stdarg
 
-Learning Objectives:
+**Learning Objectives:**
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-General:
+**General:**
 What are variadic functions
 How to use va_start, va_arg and va_end macros
 Why and how to use the const type qualifier
 
-Requirements:
+**Requirements:**
 Allowed editors: vi, vim, emacs
 All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
 All your files should end with a new line
