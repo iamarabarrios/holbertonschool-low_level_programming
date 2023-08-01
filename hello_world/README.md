@@ -1,4 +1,4 @@
-Resources:
+**Resources:**
 Everything you need to know to start with C.pdf (You do not have to learn everything in there yet, but make sure you read it entirely first)
 Dennis Ritchie
 “C” Programming Language: Brian Kernighan
@@ -10,16 +10,16 @@ Betty Coding Style
 Hash-bang under the hood (Look at only after you finish consuming the other resources)
 Linus Torvalds on C vs. C++ (Look at only after you finish consuming the other resources)
 
-man or help:
+**man or help:**
 gcc
 printf (3)
 puts
 putchar
 
-Learning Objectives:
+**Learning Objectives:**
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-General:
+**General:**
 Why C programming is awesome
 Who invented C
 Who are Dennis Ritchie, Brian Kernighan and Linus Torvalds
@@ -34,7 +34,7 @@ What is the official C coding style and how to check your code with betty-style
 How to find the right header to include in your source code when using a standard library function
 How does the main function influence the return value of the program
 
-Requirements:
+**Requirements:**
 C
 Allowed editors: vi, vim, emacs
 All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
@@ -45,14 +45,14 @@ There should be no errors and no warnings during compilation
 You are not allowed to use system
 Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
 
-Shell Scripts:
+**Shell Scripts:**
 Allowed editors: vi, vim, emacs
 All your scripts will be tested on Ubuntu 20.04 LTS
 All your scripts should be exactly two lines long ($ wc -l file should print 2)
 All your files should end with a new line
 The first line of all your files should be exactly #!/bin/bash
 
-More Info:
+**More Info:**
 Betty linter
 To run the Betty linter just with command betty <filename>:
 
@@ -62,10 +62,10 @@ cd into the Betty directory
 Install the linter with sudo ./install.sh
 emacs or vi a new file called betty, and copy the script below:
 #!/bin/bash
-# Simply a wrapper script to keep you from having to use betty-style
-# and betty-doc separately on every item.
-# Originally by Tim Britton (@wintermanc3r), multiargument added by
-# Larry Madeo (@hillmonkey)
+Simply a wrapper script to keep you from having to use betty-style
+and betty-doc separately on every item.
+Originally by Tim Britton (@wintermanc3r), multiargument added by
+Larry Madeo (@hillmonkey)
 
 BIN_PATH="/usr/local/bin"
 BETTY_STYLE="betty-style"
@@ -85,5 +85,5 @@ Once saved, exit file and change permissions to apply to all users with chmod a+
 Move the betty file into /bin/ directory or somewhere else in your $PATH with sudo mv betty /bin/
 You can now type betty <filename> to run the Betty linter!
 
-Manual QA Review:
+**Manual QA Review:**
 It is your responsibility to request a review for your blog from a peer before the project’s deadline. If no peers have been reviewed, you should request a review from a TA or staff member.
