@@ -27,3 +27,4 @@ int	j;
 	if (i < 1)
 		_putchar('\n');
 }
+
