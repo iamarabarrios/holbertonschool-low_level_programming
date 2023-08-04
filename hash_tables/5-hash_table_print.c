@@ -9,7 +9,7 @@
 void hash_table_print(const hash_table_t *ht)
 {
 	unsigned long int i;
-	int printed = 0;
+	int printed;
 
 	if (ht == NULL)
 		return;
@@ -34,5 +34,5 @@ void hash_table_print(const hash_table_t *ht)
 			current = current->next;
 		}
 	}
-	printf("}\n");
+	printf("{\n");
 }
